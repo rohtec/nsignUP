@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>A SignUp Page</title>
+	<link rel="stylesheet" type="text/css" href="indexpractice.css">
+	<!-- <script type="text/javascript" src="indexpractice.js"></script> -->
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+	<main class="mx-6 md:text-lg md:mx-24 md:my-4 border border-gray-300 rounded-lg ">
+	<div class="h-4 md:h-full " id="boxx">
+		</div>
+	<section class="p-8">
+		<div class="right md:pr-24">
+			<form action="#" method="POST">
+				<h1 class="font-bold text-4xl mb-8 md:mt-1.5 md:pl-0 md:flex">Sign Up</h1>
+				<div class="inputfield mt-2">
+				<label class="font-medium" for="firstname">First Name<span class="text-red-500">*</span></label>
+				<input type="text" id="firstname" name="firstname" placeholder="Your first name" class=' block w-full border border-gray-300 h-10 pt-2 px-2'required>
+			    </div>
+			    <div class="inputfield mt-4">
+				<label class="font-medium" for="lastname">Last Name<span class="text-red-500">*</span></label>
+				<input type="text" id="lastname" name="lastname" placeholder="Your last name" class=' block w-full border border-gray-300 h-10 pt-2 px-2'required>
+			    </div>
+      			<div class="inputfield mt-4 ">
+				<label for="email" >Email<span class="text-red-500">*</span></label>
+				<input type="email" name="email" id="email" placeholder="Your email address.." class='block w-full border border-gray-300 md:font-small h-10 pt-2 px-2' required>
+			    </div>
+				<div class="inputfield mt-4">
+				<label for="username">Username<span class="text-red-500">*</span></label>
+				<input type="text" name="username" placeholder="Username.." id="username" class='block w-full border border-gray-300 h-10 pt-2 px-2' required>
+			    </div>
+				<div class="inputfield mt-4 ">
+				<label for="password">Password<span class="text-red-500">*</span></label>
+				<input type="text" name="password" placeholder="************" id="password" class='block w-full border border-gray-300 h-10 pt-2 px-2' required>
+			    </div>
+				<div class="inputfield mt-4">
+				<label for="password">Repeat Password<span class="text-red-500">*</span></label>
+				<input type="text" name="password" placeholder="************" id="password" class='block w-full border border-gray-300 h-10 pt-2 px-2' required>
+			    </div>
+				<div class="check my-4 px-16 md:px-0 md:mb-2 md:pl-0 md:flex" id="box"><input class="chec" type="checkbox" required><span>I Agree to the Terms of User</span></div>
+				<div class="inputfield md:flex ">
+				<button class="bg-purple-400 hover:bg-purple-500 w-full border border-gray-300 h-12 rounded-full font-medium text-lg text-white mt-2 md:w-64 md:bg-gray-500 md:hover:bg-gray-800 md:mr-16 " id="submit">Submit</button>
+				<button class=" bg-gray-800 hover:bg-gray-400 mt-2 w-full border border-gray-300 h-12 rounded-full font-medium text-lg md:bg-gray-800 md:hover:bg-gray-500 text-white md:w-64">Sign in </button>
+			</div>
+			</form>
+		</div>
+	</section>
+</main>
+</body>
+</html>
